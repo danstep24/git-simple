@@ -2,8 +2,9 @@
 
 
 h1 {
-	font-size: 20em;
+	font-size: 10em;
 	color: purple;
+	font-style: fantasy;
 }
 
 .carousel-inner .item {
