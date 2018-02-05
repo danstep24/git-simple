@@ -28,11 +28,8 @@ img {
 	border: 2px solid purple;
 }
 
-  border-radius: 50%;
-}
-
 footer {
-	background-color: green;
+	background-color: black;
 }
 
 footer a {
@@ -42,7 +39,7 @@ footer a {
 }
 
 footer p {
-	color: black;
+	color: silver;
 }
 
 img {
@@ -78,7 +75,6 @@ img {
 		margin-left: 0%;
 	}
 
-}
 }
 
 .btn{
