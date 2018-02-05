@@ -12,17 +12,33 @@ h1 {
 	font-style: fantasy;
 }
 
+
 body {
 	color:#f2f;
-	-webkit-animation: flash linear 1s infinite;
-	animation: flash linear 1s infinite;
+
 }
 
-@-webkit-keyframes flash {
-	0% { opacity: 1; }
-	50% { opacity: .1; }
-	100% { opacity: 1; }
+img {
+	border: 2px solid purple;
 }
+
+  border-radius: 50%;
+}
+
+footer {
+	background-color: green;
+}
+
+footer a {
+	color: green;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+footer p {
+	color: black;
+}
+
 
 img {
 	border: 2px solid purple;
@@ -33,11 +49,6 @@ img {
 	background-color: pink;
 }
 
-@keyframes flash {
-	0% { opacity: 1; }
-	50% { opacity: .1; }
-	100% { opacity: 1; }
-}
 
 .lead  {
   font-size: 4em;
@@ -50,5 +61,30 @@ img {
 
 {
 	padding: 50px;
-	padding-top: 200px;
+	padding-top: 100px;
 }
+#main-title {
+  color: #00CED1;
+}
+
+.form {
+	background-color: blue;
+	display: block;
+	padding: 10px;
+}
+
+input, h3 {
+	display: block;
+	width: 300px;
+	padding: 5px;
+	margin: 10px;
+}
+
+h3 {
+	width: 100%;
+}
+
+.submit {
+	width: 100px;
+}
+
