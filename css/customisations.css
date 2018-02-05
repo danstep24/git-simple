@@ -20,3 +20,17 @@ h1 {
   background: pink;
   color: pink;
 }
+
+footer {
+	background-color: green;
+}
+
+footer a {
+	color: green;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+footer p {
+	color: black;
+}
