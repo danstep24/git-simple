@@ -1,1 +1,6 @@
 /* put your page styling customisations here! */
+
+.carousel-inner .item {
+  background-size: cover;
+  background-position: center;
+}
