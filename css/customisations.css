@@ -3,11 +3,12 @@
 body {
   display: none;
   background: none !important;
+  font-family: 'Space Mono', monospace;
 }
 
-html::after {
+/*html::after {
   content: "just being nasty!";
-}
+}*/
 
 h1 {
 	font-size: 10em;
