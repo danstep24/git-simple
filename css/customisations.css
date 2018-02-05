@@ -47,3 +47,6 @@ img {
 .lead  {
   font-size: 4em;
 }
+.navbar-collapse {
+  height: 300px;
+}
