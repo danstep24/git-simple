@@ -16,7 +16,13 @@ h1 {
   background-position: center;
 }
 
+
 * {
   background: pink;
   color: pink;
 }
+
+img {
+	border: 2px solid purple;
+}
+
