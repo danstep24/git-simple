@@ -1,6 +1,14 @@
 /* put your page styling customisations here! */
 
+
+h1 {
+	font-size: 10em;
+	color: purple;
+	font-style: fantasy;
+}
+
 .carousel-inner .item {
   background-size: cover;
   background-position: center;
 }
+
