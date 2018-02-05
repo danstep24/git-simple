@@ -59,3 +59,22 @@ img {
 #main-title {
   color: #00CED1;
 }
+
+#block {
+	display: inline-block;
+	animation-duration: 2s;
+	animation-name: slidein;
+	animation-direction: alternate;
+	animation-iteration-count: infinite;
+}
+
+@keyframes slidein {
+	from {
+		margin-left: 100%;
+	}
+	to {
+		margin-left: 0%;
+	}
+
+}
+}
