@@ -38,3 +38,13 @@ img {
 	50% { opacity: .1; }
 	100% { opacity: 1; }
 }
+
+.lead  {
+  font-size: 4em;
+}
+.navbar-collapse {
+  height: 300px;
+}
+#main-title {
+  color: #00CED1;
+}
