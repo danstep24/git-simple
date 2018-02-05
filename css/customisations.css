@@ -1,15 +1,15 @@
 /* put your page styling customisations here! */
 
-body {
+/* body {
   display: none;
   background: none !important;
-}
+} */
 
-html::after {
-  content: "just being nasty!";
-}
+/*html::after {
+  content: "just being nasty!"; */
 
-h1 {
+
+/* h1 {
 	font-size: 10em;
 	color: purple;
 	font-style: fantasy;
@@ -18,5 +18,5 @@ h1 {
 .carousel-inner .item {
   background-size: cover;
   background-position: center;
-}
+} */
 
