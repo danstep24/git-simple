@@ -21,6 +21,21 @@ h1 {
   color: pink;
 }
 
+
 img {
   border-radius: 50%;
 }
+footer {
+	background-color: green;
+}
+
+footer a {
+	color: green;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+footer p {
+	color: black;
+}
+
