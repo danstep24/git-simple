@@ -5,6 +5,8 @@
 body {
   padding-bottom: 40px;
   color: #5a5a5a;
+  background-image: url("../images/cat1.jpg");
+  background-size: 100%;
 }
 
 
