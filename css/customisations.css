@@ -12,11 +12,32 @@ h1 {
 	font-style: fantasy;
 }
 
+
 body {
 	color:#f2f;
 
 }
 
+img {
+	border: 2px solid purple;
+}
+
+  border-radius: 50%;
+}
+
+footer {
+	background-color: green;
+}
+
+footer a {
+	color: green;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+footer p {
+	color: black;
+}
 
 
 img {
