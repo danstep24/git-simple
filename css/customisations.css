@@ -1,33 +1,15 @@
-/* put your page styling customisations here! */
-
-/*body {
-  display: none;
-  background: none !important;
-}*/
-
-h1 {
-	font-size: 10em;
-	color: purple;
-	font-style: fantasy;
+body {
+  color:#f2f;
+  -webkit-animation: flash linear 1s infinite;
+  animation: flash linear 1s infinite;
 }
-
-.carousel-inner .item {
-  background-size: cover;
-  background-position: center;
+@-webkit-keyframes flash {
+  0% { opacity: 1; }
+  50% { opacity: .1; }
+  100% { opacity: 1; }
 }
-
-
-* {
-  background: pink;
-  color: pink;
+@keyframes flash {
+  0% { opacity: 1; }
+  50% { opacity: .1; }
+  100% { opacity: 1; }
 }
-
-img {
-<<<<<<< HEAD
-	border: 2px solid purple;
-}
-
-=======
-  border-radius: 50%;
-}
->>>>>>> cdcd257768f4f6cebea1931bc66838d8406f9788
