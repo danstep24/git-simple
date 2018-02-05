@@ -43,9 +43,6 @@ img {
 	border: 2px solid purple;
 }
 
-.btn-default {
-	background-color: pink;
-}
 
 
 .lead  {
@@ -56,4 +53,8 @@ img {
 }
 #main-title {
   color: #00CED1;
+}
+
+.btn{
+	background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet); ;
 }
