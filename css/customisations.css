@@ -41,7 +41,7 @@ img {
 .btn-default {
 	background-color: pink;
 }
-=======
+
 @keyframes flash {
   0% { opacity: 1; }
   50% { opacity: .1; }
