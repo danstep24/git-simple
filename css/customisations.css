@@ -54,11 +54,37 @@ img {
 .navbar-collapse {
   height: 300px;
 }
+
+.contact 
+
+{
+	padding: 50px;
+	padding-top: 100px;
+}
 #main-title {
   color: #00CED1;
 }
 
+.form {
+	background-color: blue;
+	display: block;
+	padding: 10px;
+}
 
+input, h3 {
+	display: block;
+	width: 300px;
+	padding: 5px;
+	margin: 10px;
+}
+
+h3 {
+	width: 100%;
+}
+
+.submit {
+	width: 100px;
+}
 #block {
 	display: inline-block;
 	animation-duration: 2s;
