@@ -31,3 +31,7 @@ img {
   50% { opacity: .1; }
   100% { opacity: 1; }
 }
+
+.lead  {
+  font-size: 4em;
+}
