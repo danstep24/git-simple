@@ -51,9 +51,6 @@ img {
 	border-radius: 50%;
 }
 
-.btn-default {
-	background-color: pink;
-}
 
 
 .lead  {
@@ -64,4 +61,8 @@ img {
 }
 #main-title {
   color: #00CED1;
+}
+
+.btn{
+	background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet); ;
 }
