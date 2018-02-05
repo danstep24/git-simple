@@ -1,13 +1,16 @@
 /* put your page styling customisations here! */
-
+/*@import url('https://fonts.googleapis.com/css?family=Space+Mono');*/
+/*html {
+	font-family: "Space", monospace;
+}*/
 body {
   display: none;
   background: none !important;
 }
 
-html::after {
+/*html::after {
   content: "just being nasty!";
-}
+}*/
 
 h1 {
 	font-size: 10em;
