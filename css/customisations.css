@@ -12,6 +12,12 @@ h1 {
 	font-style: fantasy;
 }
 
+h1,
+h2,
+h3 {
+  text-shadow: 0 0 15px rgba(0, 0, 0, .8);
+}
+
 
 body {
 	color:#f2f;
