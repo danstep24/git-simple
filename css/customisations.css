@@ -87,16 +87,14 @@ img {
 }
 
 @keyframes flash {
-
 	0% { opacity: 1; }
 	50% { opacity: .1; }
 	100% { opacity: 1; }
-\
-  0% { opacity: 1; }
-  50% { opacity: .1; }
-  100% { opacity: 1; }
 }
 
 .lead  {
   font-size: 4em;
+}
+.navbar-collapse {
+  height: 300px;
 }
