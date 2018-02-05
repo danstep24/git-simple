@@ -65,7 +65,7 @@ img {
 	background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet); ;
 }
 
-.navbar-brand {
+.navbar-flash {
 	font-weight: bold;
 	animation: pulse 1s infinite,
 				 opacity 0.5s infinite;
