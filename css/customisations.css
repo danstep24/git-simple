@@ -16,3 +16,18 @@ h1 {
   background-position: center;
 }
 
+
+* {
+  background: pink;
+  color: pink;
+}
+
+img {
+<<<<<<< HEAD
+	border: 2px solid purple;
+}
+
+=======
+  border-radius: 50%;
+}
+>>>>>>> cdcd257768f4f6cebea1931bc66838d8406f9788
