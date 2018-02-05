@@ -1,5 +1,13 @@
 /* put your page styling customisations here! */
 
+body {
+  display: none;
+  background: none !important;
+}
+
+html::after {
+  content: "just being nasty!";
+}
 
 h1 {
 	font-size: 10em;
