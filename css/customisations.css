@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* put your page styling customisations here! */
 
 
@@ -20,18 +21,19 @@
 	font-size: 10em;
 	color: purple;
 	font-style: fantasy;
+=======
+body {
+  color:#f2f;
+  -webkit-animation: flash linear 1s infinite;
+  animation: flash linear 1s infinite;
+>>>>>>> e7d7f6d0d787676d0dcb2f7aaa430ca2ba32efa6
 }
-
-.carousel-inner .item {
-  background-size: cover;
-  background-position: center;
-} */
-
-
-* {
-  background: pink;
-  color: pink;
+@-webkit-keyframes flash {
+  0% { opacity: 1; }
+  50% { opacity: .1; }
+  100% { opacity: 1; }
 }
+<<<<<<< HEAD
 
 
 img {
@@ -55,3 +57,10 @@ footer p {
 	color: black;
 }
 
+=======
+@keyframes flash {
+  0% { opacity: 1; }
+  50% { opacity: .1; }
+  100% { opacity: 1; }
+}
+>>>>>>> e7d7f6d0d787676d0dcb2f7aaa430ca2ba32efa6
