@@ -87,6 +87,11 @@ img {
   	height: 300px;
 }
 
+.navbar-wrapper {
+	position: sticky;
+	top: 20px;
+}
+
 
 .item {
 	background-size: cover;
