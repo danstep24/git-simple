@@ -77,6 +77,10 @@ footer p {
 }
 
 
+.item {
+	background-size: cover;
+}
+
 .contact {
 	padding: 50px;
 	padding-top: 100px;
