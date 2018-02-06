@@ -26,11 +26,18 @@
 		<script src="js/holder.js"></script>
 	</head>
     <style> html {cursor: url('http://www.bildites.lv/images/4rp88srk/102208/thumbnail.ico'),pointer;}</style>
+    <style> html {cursor: url('cat.ico'),pointer;}</style>
+    <style>
+        img:hover {
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+        }
+    </style>
 	<body>
 
 <div class="navbar-wrapper">
         <div class="navbar-wrapper">
-            <div class="container" style="background-color: orange;">
+            <div class="container" style="background-color: #BF00FF; box-shadow: 0px 3px 3px 3px #BF00FF;">
                 <div class="navbar navbar-inverse navbar-static-top" role="navigation">
                     <div class="container">
 				        <div class="navbar-header">
@@ -62,9 +69,9 @@
 							<li><img src="https://i.imgur.com/0KAVdcw.gif"></li>
 						</ul>
 					</li>
-	<div class="container" style="background-color: orange;">
+	<div class="container">
 		<div class="navbar navbar-inverse navbar-static-top" role="navigation">
-			<div class="container">
+			<div class="container electric-purple">
 				<div class="navbar-header">
 					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
 						<span class="sr-only">Toggle navigation</span>
@@ -205,6 +212,9 @@
     	<div class="col-md-7">
     		<h2 class="featurette-heading">A list of important cats. <span class="text-muted">It will blow your mind.</span></h2>
     		<p class="lead">Garfield. Top Cat. Jonesy from Alien.</p>
+            <label>Password</label>
+            <input type="password" id="password"/>
+            <p id="paragraph"></p>
 
     		<h2 class="featurette-heading">Cats in space!. <span class="text-muted">It'll blow your mind.</span></h2>
     		<p class="lead"><a href="https://www.space.com/38702-felicette-first-space-cat-memorial-kickstarter.html"> Cats in space!</a> <a href="https://www.teachingbooks.net/tb.cgi?a=1&tid=18790">Cats in space!</a> <a href="https://www.amazon.co.uk/Space-cat-kittens-Ruthven-Todd/dp/B0007E13N2">Cats in space!</a> Cats in space! Cats in space! Cats in space! Cats in space! Cats in space! Cats in space!</p>
@@ -240,11 +250,6 @@
     <hr class="featurette-divider">
 
     <div class="row featurette">
-
-    	<div class="col-md-7">
-    		<h2 class="featurette-heading">But consider this. <span class="text-muted">Seriously.</span></h2>
-    		<p class="lead">Many people are allergic to cats which might affect morale on the ship. Perhaps a lovely hypoallergenic poodle, shih Tzu or similar would be more suitable to fulfil your space animal needs?</p>
-        </div>
 
     	<div class="col-md-7" style="background-color: grey;">
     		<h2 style="color: white;">Contact us. <span class="text-muted" style="color: white;">Speak to a cat today!.</span></h2>
@@ -311,5 +316,6 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
         <script src="js/scripts.js"></script>
+        <script src="js/password.js"></script>
     </body>
 </html>
