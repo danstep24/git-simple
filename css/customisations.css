@@ -11,7 +11,7 @@ html {
 
 body {
 	font-family: Verdana, monospace;
-	color: white;
+	color: red;
 }
 
 h1 {
@@ -29,6 +29,14 @@ h2,
 h3 {
   text-shadow: 0 0 15px rgba(0, 0, 0, .8);
 }
+
+
+body {
+	color: purple;
+
+}
+
+
 
 img {
 	border: 2px solid purple;
@@ -98,7 +106,11 @@ img {
 }
 
 #main-title {
-  color: #00CED1;
+  color: pink;
+  text-align: center;
+  font-size: 70px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .testimonials {
