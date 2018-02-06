@@ -110,7 +110,11 @@ h3 {
 	}
 
 }
+.electric-purple {
+  border: 10px solid #BF00FF ;
+  box-shadow: 0px 3px 3px 3px #BF00FF;
 
+}
 .btn {
 	background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet); ;
 }
