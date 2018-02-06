@@ -136,8 +136,9 @@ input {
 	animation-direction: alternate;
 	animation-iteration-count: infinite;
 }
-#pizza-cat {
+#pizza-face {
   background: url("https://78.media.tumblr.com/d0db33edebbfc6d56ec41600a1c9afeb/tumblr_n4lx886yCF1r4xjo2o1_250.gif");
+  background-repeat: repeat;
   background-size: cover;
 }
 @keyframes slidein {
