@@ -15,20 +15,19 @@ body {
 }
 
 h1 {
-	font-size: 6em;
+	font-size: 5em;
 	color: white;
 	font-style: fantasy;
 	text-shadow: 1.5px 3px orange;
 }
 
+p {
+	font-size: 2em;
+}
+
 h2,
 h3 {
   text-shadow: 0 0 15px rgba(0, 0, 0, .8);
-}
-
-body {
-	color: white;
-
 }
 
 img {
@@ -56,15 +55,15 @@ footer a {
 
 footer p {
 	color: silver;
-  text-align: left;
+  	text-align: left;
 }
 .bottom {
-  position: absolute;
-  top: 100px;
-  left: 35%;
+  	position: absolute;
+  	top: 100px;
+  	left: 35%;
 }
 .bottom a {
-  margin-right: 50px;
+  	margin-right: 50px;
 }
 
 img {
@@ -74,7 +73,6 @@ img {
 
 .carousel-caption h1 {
 	font-family: 'Gloria Hallelujah', cursive , sans-serif;
-
 }
 
 .carousel-caption p {
@@ -83,23 +81,18 @@ img {
 }
 
 .lead  {
-  font-size: 4em;
+  	font-size: 4em;
 }
 .navbar-collapse {
-  height: 300px;
+  	height: 300px;
 }
 
-<<<<<<< HEAD
-.contact
-{
-=======
 
 .item {
 	background-size: cover;
 }
 
 .contact {
->>>>>>> f00e6682552dd140db4e6c532aba7ba0340d0218
 	padding: 50px;
 	padding-top: 100px;
 }
