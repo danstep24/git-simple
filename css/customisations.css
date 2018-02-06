@@ -11,9 +11,9 @@ h1 {
 	font-size: 10em;
 	color: white;
 	font-style: fantasy;
+	text-shadow: 1.5px 3px orange;
 }
 
-h1,
 h2,
 h3 {
   text-shadow: 0 0 15px rgba(0, 0, 0, .8);
