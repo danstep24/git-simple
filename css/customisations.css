@@ -247,3 +247,20 @@ input {
 	text-align: center;
 	margin: auto;
 }
+
+@keyframes  circle-hover {
+	0% {
+		box-shadow: 0px 0px 10px 10px #7DF9FF;
+	}
+	40% {
+		box-shadow: 0px 0px 10px 14px purple;
+	}
+	80% {
+		box-shadow: 0px 0px 10px 12px green;
+	}
+
+}
+
+.img-circle:hover {
+	animation: circle-hover 2s infinite ease-in;
+}
