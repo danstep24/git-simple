@@ -246,3 +246,8 @@ input {
 		opacity: 1;
 	}
 }
+
+.center {
+	text-align: center;
+	margin: auto;
+}
