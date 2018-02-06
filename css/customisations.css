@@ -15,7 +15,7 @@ body {
 }
 
 h1 {
-	font-size: 10em;
+	font-size: 6em;
 	color: white;
 	font-style: fantasy;
 	text-shadow: 1.5px 3px orange;
@@ -42,7 +42,7 @@ img {
 
 footer {
 	background-color: black;
-  height: 200px;
+  	height: 200px;
 }
 
 footer a {
@@ -55,8 +55,8 @@ footer p {
 	color: silver;
 }
 
-img {
-	border: 2px solid purple;
+.carousel-slide {
+	padding: 10px;
 }
 
 .carousel-caption h1 {
@@ -76,16 +76,16 @@ img {
   height: 300px;
 }
 
+
 .item {
 	background-size: cover;
 }
 
-.contact
-
-{
+.contact {
 	padding: 50px;
 	padding-top: 100px;
 }
+
 #main-title {
   color: #00CED1;
 }
