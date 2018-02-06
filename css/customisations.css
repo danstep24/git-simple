@@ -8,7 +8,7 @@ body {
 }
 
 h1 {
-	font-size: 8em;
+	font-size: 6em;
 	color: white;
 	font-style: fantasy;
 }
@@ -41,6 +41,10 @@ footer a {
 
 footer p {
 	color: silver;
+}
+
+.carousel-slide {
+	padding: 10px;
 }
 
 
