@@ -40,9 +40,8 @@ img {
 	border: 2px solid purple;
 }
 
-.featurette-image {
-	width: 50em;
-	margin: 2em;
+.footer-img {
+	width: 12em;
 }
 
 .img-circle {
@@ -243,4 +242,9 @@ input {
 	100% {
 		opacity: 1;
 	}
+}
+
+.center {
+	text-align: center;
+	margin: auto;
 }

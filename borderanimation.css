@@ -1,0 +1,38 @@
+body {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 50% 50%;
+	grid-row-gap: 75px;
+	background-color: rgb(3, 30, 73);
+}
+
+@keyframes vicki {
+    0% {
+    	border-color: purple;
+    }
+    25% {
+    	border-color: orange;
+    }
+    50% {
+    	border-color: yellow;
+    }
+    75% {
+    	border-color: green;
+    }
+    100% {
+    	border-color: blue;
+    }
+}
+
+img {
+	margin: auto;
+	height: 300px;
+	width: 300px;
+	border-radius: 50%;
+	border: 10px solid purple;
+	animation: vicki infinite 5s; 
+
+}
+
+
+
