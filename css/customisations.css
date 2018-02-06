@@ -47,7 +47,15 @@ img {
 	border: 2px solid purple;
 }
 
+.carousel-caption h1 {
+	font-family: 'Gloria Hallelujah', cursive , sans-serif;
 
+}
+
+.carousel-caption p {
+	font-family: 'Shadows Into Light Two', cursive, sans-serif;
+
+}
 
 .lead  {
   font-size: 4em;
