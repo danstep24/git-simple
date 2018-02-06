@@ -219,10 +219,18 @@
 
     <div class="row featurette">
 
-    	<div class="col-md-7" style="background-color: grey;">
+    	<div class="contact-form" style="background-color: grey;">
     		<h2 style="color: white;">Contact us. <span class="text-muted" style="color: white;">Speak to a cat today!.</span></h2>
-            <p class="lead" style="color: white;">Are you a space cat? Do you want to be a space cat? Are you just curious about space cats? Well you're in the right place! Call 0800-CATS-SPACE</p>
-
+            <p class="lead" style="color: white;">Are you a space cat? Do you want to be a space cat? Are you just curious about space cats? Well you're in the right place! Call 0800-CATS-SPACE, or send us a message using the form below...</p>
+            <form action="message-reading-page" method="post">
+                <label for="name">Name:</label>
+                <input type="text" name="name">
+                <label for="email">Email address:</label>
+                <input type="email" name="email">
+                <label for="message">Message:</label>
+                <input type="textarea" name="message">
+                <input type="submit" value="Submit">
+            </form>
         </div>
 
     </div>
