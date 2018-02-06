@@ -8,7 +8,7 @@ body {
 }
 
 h1 {
-	font-size: 10em;
+	font-size: 8em;
 	color: white;
 	font-style: fantasy;
 }
@@ -30,7 +30,7 @@ img {
 
 footer {
 	background-color: black;
-  height: 200px;
+  	height: 200px;
 }
 
 footer a {
@@ -43,10 +43,6 @@ footer p {
 	color: silver;
 }
 
-img {
-	border: 2px solid purple;
-}
-
 
 
 .lead  {
@@ -56,12 +52,11 @@ img {
   height: 300px;
 }
 
-.contact 
-
-{
+.contact {
 	padding: 50px;
 	padding-top: 100px;
 }
+
 #main-title {
   color: #00CED1;
 }
