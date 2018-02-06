@@ -36,8 +36,6 @@ body {
 
 }
 
-
-
 img {
 	border: 2px solid purple;
 }
@@ -53,10 +51,10 @@ img {
 
 footer {
 	background-image: url("../img/cat.jpg");
-  background-size: repeat;
-  height: 150px;
-  border: 2px solid black;
-  position: relative;
+  	background-size: repeat;
+  	height: 150px;
+  	border: 2px solid black;
+  	position: relative;
 }
 
 footer a {
@@ -69,6 +67,7 @@ footer p {
 	color: silver;
   	text-align: left;
 }
+
 .bottom {
   	position: absolute;
   	top: 100px;
@@ -76,11 +75,6 @@ footer p {
 }
 .bottom a {
   	margin-right: 50px;
-}
-
-img {
-	border: 2px solid purple;
-
 }
 
 .carousel-caption h1 {
@@ -103,7 +97,6 @@ img {
 	position: sticky;
 	top: 20px;
 }
-
 
 .item {
 	background-size: cover;
@@ -157,10 +150,12 @@ input {
 	animation-direction: alternate;
 	animation-iteration-count: infinite;
 }
+
 #pizza-cat {
   background: url("https://78.media.tumblr.com/d0db33edebbfc6d56ec41600a1c9afeb/tumblr_n4lx886yCF1r4xjo2o1_250.gif");
   background-size: cover;
 }
+
 @keyframes slidein {
 	from {
 		margin-left: 100%;
@@ -170,12 +165,14 @@ input {
 	}
 
 }
+
 .electric-purple {
   border: 12px solid;
 
   animation: pulseNav 1s infinite,
 				 opacity infinite;
 }
+
 .btn {
 	background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet); ;
 }
@@ -245,4 +242,9 @@ input {
 	100% {
 		opacity: 1;
 	}
+}
+
+.center {
+	text-align: center;
+	margin: auto;
 }

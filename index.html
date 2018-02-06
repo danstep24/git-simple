@@ -30,8 +30,8 @@
     <style> html {cursor: url('img/cat.ico'),pointer;}</style>
     <style>
         img:hover {
-        -webkit-transform: scaleX(-1);
-        transform: scaleX(-1);
+        -webkit-transform: scaleY(-1);
+        transform: scaleY(-1);
         }
     </style>
 	<body>
@@ -54,7 +54,6 @@
 						<li class="active"><a href="#">Cats</a></li>
 						<li><a href="#about">Cats</a></li>
 						<li><a href="contact.html">ConKat</a></li>
-
 						<li><a href="more-cats.html">More Cats</a></li>
                         <li><a href="blog.html">Blog</a></li>
 						<li class="dropdown">
@@ -134,15 +133,15 @@
 ================================================== -->
 <!-- Wrap the rest of the page in another container to center all the content. -->
 
-<div class="container row col-md-12 alert alert-success" role="alert">
-    <p>You have been successfully purrified!</p>
+<div class="container row col-md-12 alert alert-success center" role="alert">
+    <p class="center">You have been successfully purrified!</p>
     <audio controls autoplay>
       <source src="http://soundbible.com/mp3/UFO_Takeoff-Sonidor-1604321570.mp3" type="audio/mpeg">
         Your browser does not support the audio element.
     </audio>
 </div>
 
-<div class="container">
+<div class="container center">
     <div class="row">
         <div class="col-md-12">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/1ATrgLGc-_s?start=321" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
@@ -251,14 +250,14 @@
     	<div class="contact-form" style="background-color: grey;">
     		<h2 style="color: white;">Contact us. <span class="text-muted" style="color: white;">Speak to a cat today!.</span></h2>
             <p class="lead" style="color: white;">Are you a space cat? Do you want to be a space cat? Are you just curious about space cats? Well you're in the right place! Call 0800-CATS-SPACE, or send us a message using the form below...</p>
-            <form action="message-reading-page" method="post">
+            <form class="center" action="message-reading-page" method="post">
                 <label for="name">Name:</label>
-                <input type="text" name="name">
+                <input type="text" name="name" class="center" />
                 <label for="email">Email address:</label>
-                <input type="email" name="email">
+                <input type="email" name="email" class="center" />
                 <label for="message">Message:</label>
-                <input type="textarea" name="message">
-                <input type="submit" value="Submit">
+                <input type="textarea" name="message" class="center" />
+                <input type="submit" value="Submit"  class="center" />
             </form>
         </div>
 
@@ -277,7 +276,7 @@
 
         <hr class="featurette-divider">
 
-    		<img src="https://i.imgur.com/ZSoq2wT.jpg" class="featurette-image img-responsive" src="https://i.imgur.com/ZSoq2wT.jpg" alt="Generic placeholder image">
+    		<img src="https://i.imgur.com/ZSoq2wT.jpg" class="featurette-image img-responsive" src="https://i.imgur.com/ZSoq2wT.jpg" alt="Garlic dog">
 
     		<img src= "img/dj-cat.jpg" class="featurette-image img-responsive" data-src="holder.js/500x500/auto" alt="DJ Cat">
 
@@ -285,15 +284,9 @@
 
         	<img src= "img/space-party.jpg" class="featurette-image img-responsive" data-src="holder.js/500x500/auto" alt="Cats having a space party">
 
-    		<img class="featurette-image img-responsive" src ="https://www.learningtangent.com/wp-content/uploads/2016/03/Small-CheckmateBlues.jpg" alt="Generic placeholder image">
-
     		<img src="img/the-coolest-cat.jpg" class="featurette-image img-responsive" alt="One cool cat">
 
-
-
             <img src="img/astrocat.jpg" class="featurette-image img-responsive" data-src="holder.js/500x500/auto" alt="Cat in a spacesuit">
-
-
 
     	</div>
     </div>
