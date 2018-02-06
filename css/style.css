@@ -20,13 +20,14 @@ img {
 body {
   color: #f2f;
   -webkit-animation: flash linear 1s infinite;
-  animation: flash linear 1s infinite; }
+  animation: flash linear 1s infinite;
+}
 
 .container {
   border: 5px solid #BF00FF ;
   box-shadow: 20px 20px 40px 20px #0ff;
-
 }
+
 @-webkit-keyframes flash {
   0% {
     opacity: 1; }
