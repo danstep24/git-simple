@@ -54,6 +54,12 @@
 						<li class="active"><a href="#">Cats</a></li>
 						<li><a href="#about">Cats</a></li>
 						<li><a href="contact.html">Contact</a></li>
+
+
+
+						<li><a href="more-cats.html">More Cats</a></li>
+
+
                         <li><a href="blog.html">Blog</a></li>
 						<li class="dropdown">
 							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <span class="caret"></span></a>
@@ -147,6 +153,25 @@
     </div>
 </div>
 
+<div class="container testimonials">
+    <div class="row">
+        <div class="col-md-12">
+            <h2>Testimonials</h2>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-4">
+            Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus.
+        </div>
+        <div class="col-md-4">
+            Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.
+        </div>
+        <div class="col-md-4">
+            In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus.
+        </div>
+    </div>
+</div>
+
 <div class="container marketing">
     <div id="canvas">
         <img id="block" src="http://68.media.tumblr.com/5d933dbea55d887f28bb467c67bcb356/tumblr_mojk1em3ew1r4xjo2o1_250.gif" />
@@ -170,7 +195,7 @@
     	</div><!-- /.col-lg-4 -->
     	<div class="col-lg-4">
     		<img class="img-circle" src="https://media.giphy.com/media/w3J7mstYCISqs/giphy.gif" alt="Generic placeholder image" style="width: 140px; height: 140px;">
-    		<h2>Heading 3</h2>
+    		<h2>Cats are best</h2>
     		<p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
     		<p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
     	</div><!-- /.col-lg-4 -->
@@ -225,10 +250,18 @@
 
     <div class="row featurette">
 
-    	<div class="col-md-7" style="background-color: grey;">
+    	<div class="contact-form" style="background-color: grey;">
     		<h2 style="color: white;">Contact us. <span class="text-muted" style="color: white;">Speak to a cat today!.</span></h2>
-            <p class="lead" style="color: white;">Are you a space cat? Do you want to be a space cat? Are you just curious about space cats? Well you're in the right place! Call 0800-CATS-SPACE</p>
-
+            <p class="lead" style="color: white;">Are you a space cat? Do you want to be a space cat? Are you just curious about space cats? Well you're in the right place! Call 0800-CATS-SPACE, or send us a message using the form below...</p>
+            <form action="message-reading-page" method="post">
+                <label for="name">Name:</label>
+                <input type="text" name="name">
+                <label for="email">Email address:</label>
+                <input type="email" name="email">
+                <label for="message">Message:</label>
+                <input type="textarea" name="message">
+                <input type="submit" value="Submit">
+            </form>
         </div>
 
     </div>
@@ -258,11 +291,11 @@
 
     		<img src="img/the-coolest-cat.jpg" class="featurette-image img-responsive" alt="One cool cat">
 
-    		
+
 
             <img src="img/astrocat.jpg" class="featurette-image img-responsive" data-src="holder.js/500x500/auto" alt="Cat in a spacesuit">
 
-    		
+
 
     	</div>
     </div>
@@ -281,9 +314,9 @@
         <footer>
                 <p class="pull-right"><a href="#">Back to top</a></p>
                 <a href="sitecreators.html">Site Creators</a>
-                <p>&copy; 2028 Dogs in Space Co. &middot; 
+                <p>&copy; 2028 Dogs in Space Co. &middot;
                 <p class="bottom">
-                    <a href="privacy.html">Privacy</a> &middot; 
+                    <a href="privacy.html">Privacy</a> &middot;
                     <a href="terms.html">Terms</a></p>
                 </p>
         </footer>
