@@ -2,6 +2,13 @@
 
 @import url('https://fonts.googleapis.com/css?family=Space+Mono');
 
+html {
+  background-image: url('../img/cat-bg.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+
 body {
 	font-family: Verdana, monospace;
 	color: white;
@@ -11,9 +18,9 @@ h1 {
 	font-size: 10em;
 	color: white;
 	font-style: fantasy;
+	text-shadow: 1.5px 3px orange;
 }
 
-h1,
 h2,
 h3 {
   text-shadow: 0 0 15px rgba(0, 0, 0, .8);
@@ -56,7 +63,7 @@ img {
   height: 300px;
 }
 
-.contact 
+.contact
 
 {
 	padding: 50px;
@@ -103,7 +110,11 @@ h3 {
 	}
 
 }
+.electric-purple {
+  border: 10px solid #BF00FF ;
+  box-shadow: 0px 3px 3px 3px #BF00FF;
 
+}
 .btn {
 	background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet); ;
 }
