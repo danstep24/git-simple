@@ -15,7 +15,7 @@ body {
 }
 
 h1 {
-	font-size: 10em;
+	font-size: 6em;
 	color: white;
 	font-style: fantasy;
 	text-shadow: 1.5px 3px orange;
@@ -41,22 +41,35 @@ img {
 }
 
 footer {
-	background-color: black;
-  height: 200px;
+	background-image: url("../img/cat.jpg");
+  background-size: repeat;
+  height: 150px;
+  border: 2px solid black;
+  position: relative;
 }
 
 footer a {
-	color: white;
+	color: #0892D0;
 	font-weight: bold;
-	font-size: 20px;
+	font-size: 2em;
 }
 
 footer p {
 	color: silver;
+  text-align: left;
+}
+.bottom {
+  position: absolute;
+  top: 100px;
+  left: 35%;
+}
+.bottom a {
+  margin-right: 50px;
 }
 
 img {
 	border: 2px solid purple;
+
 }
 
 .carousel-caption h1 {
@@ -76,12 +89,16 @@ img {
   height: 300px;
 }
 
-.contact
 
-{
+.item {
+	background-size: cover;
+}
+
+.contact {
 	padding: 50px;
 	padding-top: 100px;
 }
+
 #main-title {
   color: pink;
   text-align: center;
