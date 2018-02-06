@@ -142,13 +142,9 @@ h3 {
 }
 .electric-purple {
   border: 12px solid;
- /* background-origin: border-box;
-  background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
-  background-size: 100% 7px, 10px 100%, 100% 6px, 6px 100%;
-  background-position: top left, top right, bottom right, bottom left;
-  background-repeat: no-repeat;*/
+
   animation: pulseNav 1s infinite,
-				 opacity /*1.1s*/ infinite;
+				 opacity infinite;
 }
 .btn {
 	background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet); ;
