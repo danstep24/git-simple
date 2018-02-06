@@ -11,7 +11,7 @@ html {
 
 body {
 	font-family: Verdana, monospace;
-	color: white;
+	color: red;
 }
 
 h1 {
@@ -29,6 +29,14 @@ h2,
 h3 {
   text-shadow: 0 0 15px rgba(0, 0, 0, .8);
 }
+
+
+body {
+	color: purple;
+
+}
+
+
 
 img {
 	border: 2px solid purple;
@@ -98,7 +106,15 @@ img {
 }
 
 #main-title {
-  color: #00CED1;
+  color: pink;
+  text-align: center;
+  font-size: 70px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.testimonials {
+  color: #555;
 }
 
 .form {
@@ -132,9 +148,8 @@ input {
 	animation-direction: alternate;
 	animation-iteration-count: infinite;
 }
-#pizza-face {
+#pizza-cat {
   background: url("https://78.media.tumblr.com/d0db33edebbfc6d56ec41600a1c9afeb/tumblr_n4lx886yCF1r4xjo2o1_250.gif");
-  background-repeat: repeat;
   background-size: cover;
 }
 @keyframes slidein {
@@ -147,9 +162,10 @@ input {
 
 }
 .electric-purple {
-  border: 10px solid #BF00FF ;
-  box-shadow: 0px 3px 3px 3px #BF00FF;
+  border: 12px solid;
 
+  animation: pulseNav 1s infinite,
+				 opacity infinite;
 }
 .btn {
 	background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet); ;
@@ -181,6 +197,36 @@ input {
 	}
 	90% {
 		color: violet;
+	}
+
+
+}
+
+@keyframes pulseNav {
+	0% {
+		border-color: red;
+	}
+	15% {
+		border-color: orange;
+	}
+	30% {
+		border-color: yellow;
+	}
+	30% {
+		border-color: green;
+	}
+	60% {
+		border-color: blue;
+	}
+	70% {
+		border-color: yellow;
+	}
+	80% {
+		border-color: violet;
+	}
+
+	100% {
+		border-color: red;
 	}
 }
 @keyframes opacity {
