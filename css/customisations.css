@@ -141,9 +141,14 @@ h3 {
 
 }
 .electric-purple {
-  border: 10px solid #BF00FF ;
-  box-shadow: 0px 3px 3px 3px #BF00FF;
-
+  border: 12px solid;
+ /* background-origin: border-box;
+  background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+  background-size: 100% 7px, 10px 100%, 100% 6px, 6px 100%;
+  background-position: top left, top right, bottom right, bottom left;
+  background-repeat: no-repeat;*/
+  animation: pulseNav 1s infinite,
+				 opacity /*1.1s*/ infinite;
 }
 .btn {
 	background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet); ;
@@ -175,6 +180,36 @@ h3 {
 	}
 	90% {
 		color: violet;
+	}
+
+
+}
+
+@keyframes pulseNav {
+	0% {
+		border-color: red;
+	}
+	15% {
+		border-color: orange;
+	}
+	30% {
+		border-color: yellow;
+	}
+	30% {
+		border-color: green;
+	}
+	60% {
+		border-color: blue;
+	}
+	70% {
+		border-color: yellow;
+	}
+	80% {
+		border-color: violet;
+	}
+
+	100% {
+		border-color: red;
 	}
 }
 @keyframes opacity {
