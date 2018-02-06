@@ -89,17 +89,12 @@ img {
   height: 300px;
 }
 
-<<<<<<< HEAD
-.contact
-{
-=======
 
 .item {
 	background-size: cover;
 }
 
 .contact {
->>>>>>> f00e6682552dd140db4e6c532aba7ba0340d0218
 	padding: 50px;
 	padding-top: 100px;
 }
@@ -135,9 +130,8 @@ h3 {
 	animation-direction: alternate;
 	animation-iteration-count: infinite;
 }
-#pizza-face {
+#pizza-cat {
   background: url("https://78.media.tumblr.com/d0db33edebbfc6d56ec41600a1c9afeb/tumblr_n4lx886yCF1r4xjo2o1_250.gif");
-  background-repeat: repeat;
   background-size: cover;
 }
 @keyframes slidein {
