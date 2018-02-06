@@ -107,6 +107,10 @@ h3 {
 	width: 100%;
 }
 
+input {
+  color: black;
+}
+
 .submit {
 	width: 100px;
 }
