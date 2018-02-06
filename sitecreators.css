@@ -22,3 +22,14 @@ p {
 	font-size: 20px;
 }
 
+.backbutton {
+	background-color: purple;
+	box-shadow: black 1px 1px 1px 1px;
+	margin-left: 20px;
+}
+
+.backbutton, a { 
+	color:white;
+	text-decoration: none;
+}
+
