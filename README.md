@@ -1,6 +1,6 @@
 # Cats in Space
 
-This repository has all the content for Cats in Space website. We share this, so junior developers can learn how to code properly.
+This repository has all the content for Cats in Space website. We share this, so junior developers can learn how to code properly.  It is crucial that Cats in Space is factually correct.
 
 ## Structure
 ```
